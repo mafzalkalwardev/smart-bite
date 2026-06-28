@@ -1,0 +1,242 @@
+/* ================= GLOBAL ================= */
+body {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: #e5e7eb;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+.page-wrapper {
+  padding: 60px 0;
+}
+
+.page-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #f8fafc;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 18px 40px;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin-left: 18px;
+  color: #e5e7eb !important;
+}
+
+.nav-link:hover {
+  color: #e63946 !important;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 16px;
+  font-weight: 500;
+}
+
+.navbar .btn {
+  padding: 6px 16px;
+  border-radius: 8px;
+}
+
+
+/* ================= HERO SECTION ================= */
+.hero-section {
+  height: 85vh;
+  background-image: 
+    linear-gradient(
+      rgba(2, 6, 23, 0.75),
+      rgba(2, 6, 23, 0.75)
+    ),
+    url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1920&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content h1 {
+  color: #f8fafc;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.hero-content p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.hero-content .btn {
+  background-color: #ef4444;
+  border: none;
+  padding: 14px 36px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.hero-content .btn:hover {
+  background-color: #dc2626;
+}
+
+
+
+/* ================= CARDS ================= */
+.food-card {
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.food-card img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.food-card .card-body {
+  padding: 20px;
+}
+
+/* ================= TABLES ================= */
+.table {
+  color: #e5e7eb;
+}
+
+.table th {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
+.table td {
+  background-color: rgba(15, 23, 42, 0.8);
+}
+
+/* ================= CART ================= */
+.cart-summary {
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 16px;
+  padding: 25px;
+}
+
+.cart-total {
+  font-size: 22px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+/* ================= FORMS ================= */
+input,
+select,
+textarea {
+  background-color: #020617 !important;
+  color: #e5e7eb !important;
+  border: 1px solid #334155 !important;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background-color: #020617;
+  border-top: 1px solid #334155;
+}
+.checkout input,
+.checkout textarea {
+  background: #020617;
+  border: 1px solid #334155;
+  color: #fff;
+}
+
+.checkout input::placeholder {
+  color: #94a3b8;
+}
+
+.checkout-card {
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.checkout button {
+  background: #22c55e;
+  font-size: 1.05rem;
+  padding: 12px;
+}
+.admin-login {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #020617, #000);
+}
+
+.admin-login .card {
+  border-radius: 16px;
+}
+.admin-table th {
+  background: #020617;
+  color: #fff;
+}
+
+.admin-table td {
+  color: #e5e7eb;
+}
+
+.admin-table tr:hover {
+  background: rgba(255,255,255,0.03);
+}
+footer a:hover {
+  color: #22c55e !important;
+  text-decoration: underline;
+}
+footer {
+  border-top: 1px solid #334155;
+}
+
+footer small {
+  color: #94a3b8;
+}
+footer i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer i:hover {
+  transform: scale(1.2);
+  color: #22c55e;
+}
+.footer .social-icons a {
+  margin-right: 12px;
+}
+
+.footer .social-icons a:last-child {
+  margin-right: 0;
+}
+.footer .social-icons a {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  transform: scale(1.2);
+  color: #22c55e;
+}
+
